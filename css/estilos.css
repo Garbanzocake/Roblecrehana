@@ -8,6 +8,10 @@
      box-sizing: border-box;
  }
  
+ a {
+     text-decoration: none;
+ }
+ 
  .navbar {
      background-color: #7F8A30!important;
  }
@@ -18,6 +22,60 @@
  
  .fondocolor {
      background-color: #7F8A30!important;
+ }
+ 
+ .footer p {
+     color: #7F8A30;
+ }
+ /* Masonry */
+ 
+ .products-masonry .card {
+     text-align: center;
+     border: none;
+     margin-bottom: 40px;
+ }
+ 
+ .products-masonry .card h5 {
+     text-transform: uppercase;
+     font-weight: 300;
+ }
+ 
+ .products-masonry .card h5::before {
+     content: '';
+     display: block;
+     width: 70px;
+     height: 2px;
+     background: #806a41;
+     margin: 15px auto 30px;
+ }
+ 
+ .products-masonry .card p {
+     color: #806a41;
+     font-weight: 500;
+ }
+ 
+ .tab-content>.tab-pane {
+     display: none;
+ }
+ 
+ .tab-content>.active {
+     display: block;
+ }
+ 
+ .nav-link:hover {
+     color: #806a41;
+ }
+ 
+ .nav-link.active {
+     background-color: #8a7830!important;
+ }
+ 
+ .nav-item a {
+     color: #444444;
+ }
+ 
+ a:hover {
+     text-decoration: none;
  }
  /* boton volver arriba */
  
