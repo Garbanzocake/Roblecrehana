@@ -14,7 +14,7 @@
 
 <header>
 
-    <nav class=" row    navbar navbar-expand-lg navbar-dark bg-success">
+    <nav class=" row    navbar navbar-expand-lg navbar-dark bg-success mb-2">
 
         <!-- Image and text -->
 
@@ -72,91 +72,205 @@
 
 <body>
 
-    <!-- carousel 1  -->
-    <div id="carouselExampleFade" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
+    <!-- seccion sliders -->
+    <section class="mb-2">
 
-        <ol class="carousel-indicators">
-            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
-            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+        <!-- carousel/slider 1  -->
+        <div id="carouselExampleFade" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
 
-        </ol>
+            <ol class="carousel-indicators">
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
 
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="img\sliders\banner 1-01.jpg" class="d-block w-100" alt="...">
+            </ol>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img\sliders\banner 1-01.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img\sliders\banner 1-02-01.jpg" class="d-block w-100" alt="...">
+                </div>
+
             </div>
-            <div class="carousel-item">
-                <img src="img\sliders\banner 1-02-01.jpg" class="d-block w-100" alt="...">
-            </div>
-
+            <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next " href="#carouselExampleFade" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </a>
-        <a class="carousel-control-next " href="#carouselExampleFade" role="button" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </a>
-    </div>
 
 
 
-    <!-- carousel 2  -->
-    <div id="carouselExampleFade2" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
+        <!-- carousel/slider 2  -->
+        <div id="carouselExampleFade2" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
 
-        <ol class="carousel-indicators">
-            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
-            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+            <ol class="carousel-indicators">
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
 
-        </ol>
+            </ol>
 
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="img\sliders\banner 2-01-01.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img\sliders\banner 2-01-01.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img\sliders\banner 2-02-01-01.jpg" class="d-block w-100" alt="...">
+                </div>
+
             </div>
-            <div class="carousel-item">
-                <img src="img\sliders\banner 2-02-01-01.jpg" class="d-block w-100" alt="...">
-            </div>
-
+            <a class="carousel-control-prev" href="#carouselExampleFade2" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next " href="#carouselExampleFade2" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleFade2" role="button" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </a>
-        <a class="carousel-control-next " href="#carouselExampleFade2" role="button" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </a>
-    </div>
 
-    <div class="card-group">
-        <div class="card border-success">
-            <img src="img/seccion-arriendo-venta-ofrecer/arriendo1.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Arriendo</h5>
-                <p class="card-text">Inmuebles que tenemos disponibles para arrendamiento.</p>
-                <a href="#" class="btn btn-outline-success">Ver Propiedades en Arriendo</a>
 
+    </section>
+
+
+    <!-- Seccion vender,arriendo,ofrecer -->
+    <section class="mb-2">
+        <div class="card-group">
+            <div class="card border-success mr-2">
+                <img src="img/seccion-arriendo-venta-ofrecer/arriendo1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Arriendo</h5>
+                    <p class="card-text">Inmuebles que tenemos disponibles para arrendamiento.</p>
+                    <a href="#" class="btn btn-outline-success">Ver Propiedades en Arriendo</a>
+
+                </div>
             </div>
-        </div>
-        <div class="card border-success">
-            <img src="img/seccion-arriendo-venta-ofrecer/venta1.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Venta</h5>
-                <p class="card-text">Podras ver todos nuestros inmuebles disponibles a la venta.</p>
-                <a href="#" class="btn btn-outline-success">Ver Propiedades en Venta</a>
+            <div class="card border-success">
+                <img src="img/seccion-arriendo-venta-ofrecer/venta1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Venta</h5>
+                    <p class="card-text">Podras ver todos nuestros inmuebles disponibles a la venta.</p>
+                    <a href="#" class="btn btn-outline-success">Ver Propiedades en Venta</a>
+                </div>
             </div>
-        </div>
-        <div class="card border-success">
-            <img src="img/seccion-arriendo-venta-ofrecer/ofrecer1.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Ofrecer Propiedad</h5>
-                <p class="card-text">Si tienes un inmueble que deseas poner en venta o arriendo ,nosotros te ayudamos a que suceda,contactanos en el siguiente enlace ! .</p>
-                <a href="#" class="btn btn-outline-success">Deseo ofrecer propiedad</a>
+            <div class="card border-success">
+                <img src="img/seccion-arriendo-venta-ofrecer/ofrecer1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Ofrecer Propiedad</h5>
+                    <p class="card-text">Si tienes un inmueble que deseas poner en venta o arriendo ,nosotros te ayudamos a que suceda,contactanos en el siguiente enlace ! .</p>
+                    <a href="#" class="btn btn-outline-success">Deseo ofrecer propiedad</a>
+                </div>
             </div>
         </div>
-    </div>
+
+    </section>
+
+    <!-- Seccion infos -->
+
+    <section class="mb-2">
+
+        <div class="row border border-warning justify-content-around">
+
+
+            <div class="card align-items-center border-0" style="width: 18rem; margin-top: 0.313rem;">
+
+                <i class="fas  fa-search-location fa-2x fa-3x-lg text-success"></i>
+
+                <div class="card-body">
+                    <p class="card-text">Analizamos el publico objetivo de posibles compradores segun las caracteristicas de tu inmueble.</p>
+                </div>
+            </div>
+
+
+
+            <div class="card align-items-center border-0" style="width: 18rem; margin-top: 0.313rem;">
+                <i class="fas fa-home  fa-2x fa-3x-lg text-success"></i>
+
+
+                <div class="card-body">
+                    <p class="card-text">Demostramos y Posicionamos el gran valor de tu propiedad.</p>
+                </div>
+
+            </div>
+
+            <div class="card align-items-center border-0" style="width: 18rem; margin-top: 0.313rem;">
+                <i class="fas fa-handshake fa-2x fa-3x-lg text-success"></i>
+                <div class="card-body">
+                    <p>Conectamos tu propiedad con nuestra gran base de datos de clientes potenciales junto a campas publicitarias Online y Offline.</p>
+                </div>
+
+
+            </div>
+            <div class="card align-items-center border-0" style="width: 18rem; margin-top: 0.313rem;">
+
+                <i class="fas fa-user-friends fa-2x fa-3x-lg text-success"></i>
+                <div class="card-body">
+                    <p>Acompañamos,guiamos y asesoramos en todo el proceso de la venta de tu inmueble.</p>
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- Seccion infos2 -->
+
+    <section class="mb-2">
+
+        <div class="row border border-warning justify-content-around">
+
+
+            <div class="card align-items-center border-0  " style="width: 18rem; margin-top: 0.313rem;">
+
+                <i class="fas fa-check-circle  fa-4x text-warning"></i>
+
+                <div class="card-body">
+                    <p ALIGN="justify">Posicionamos el gran valor de tu propiedad asesoramos para enconntrar el precio mas acertado. </p>
+                    <p ALIGN="justify">Fijamos un objetivo para encontrar un comprador en un publico de mercado especifico que esten interesados en tu inmueble.</p>
+                </div>
+            </div>
+
+
+
+            <div class="card align-items-center border-0 " style="width: 18rem; margin-top: 0.313rem;">
+
+                <i class="fas fa-check-circle  fa-4x text-warning"></i>
+                <div class="card-body">
+                    <p ALIGN="justify">Contamos con una gran base de datos de personas que se interesan por comprar propiedades siendo clientes potenciales para la compra de tu inmueble.</p>
+                    <p ALIGN="justify"> Conectamos y aplicamos marketing online para encontrar mas personas interesadas segun las caracteristicas de tu propiedad.</p>
+                </div>
+
+            </div>
+
+            <div class="card align-items-center border-0" style="width: 18rem; margin-top: 0.313rem;">
+                <i class="fas fa-check-circle  fa-4x text-warning"></i>
+                <div class="card-body">
+                    <p ALIGN="justify">Realizamos filtros para encontrar al comprador idoneo para tu inmueble dispuesto a pagar el precio real de tu propiedad</p>
+                </div>
+
+
+            </div>
+            <div class="card align-items-center border-0" style="width: 18rem; margin-top: 0.313rem;">
+
+                <i class="fas fa-check-circle  fa-4x text-warning"></i>
+
+                <div class="card-body">
+                    <p ALIGN="justify">Nuestros Asesores expertos estan altamente capacitados para cumplir con los objetivos que se tracen. </p>
+                    <p ALIGN="justify">Te acompañaran y guiaran en el proceso de venta de tu inmueble resolviendo y asesorando cada caso que se presente.</p>
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+
+
 
 
 

@@ -15,6 +15,10 @@
  .btn-outline-success {
      border-color: #7F8A30!important;
  }
+ 
+ .fondocolor {
+     background-color: #7F8A30!important;
+ }
  /* boton volver arriba */
  
  .btn-volver-arriba {
