@@ -47,12 +47,12 @@ a {
     display: block;
     width: 70px;
     height: 2px;
-    background: #806a41;
+    background: #7F8A30;
     margin: 15px auto 30px;
 }
 
 .products-masonry .card p {
-    color: #806a41;
+    color: #7F8A30;
     font-weight: 500;
 }
 
@@ -65,11 +65,11 @@ a {
 }
 
 .nav-link:hover {
-    color: #806a41;
+    color: #7F8A30;
 }
 
 .nav-link.active {
-    background-color: #8a7830!important;
+    background-color: #7F8A30!important;
 }
 
 .nav-item a {
