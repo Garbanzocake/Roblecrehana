@@ -79,3 +79,12 @@ a {
 a:hover {
     text-decoration: none;
 }
+
+.card-body h5 {
+    color: #7F8A30!important;
+    font-family: 'Segoe UI';
+}
+
+.card-body p {
+    font-family: 'Segoe UI';
+}
